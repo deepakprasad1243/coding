@@ -1,3 +1,6 @@
+#include <stdio.h>
+
+
 int findPrevious(int num) 
 { 
     int n = 0, N = num;
@@ -39,9 +42,18 @@ int findPrevious(int num)
             number[k+1] = temp;
         }
     }
-  
-    printf("Immediate smaller number with same set of digits is %s",number); 
-    
+ 
     sscanf(number, "%d", &N);
     return N; 
+} 
+
+
+int main()
+{
+    int num;
+    scanf("%d", &num);
+    int x = findPrevious(num);
+    printf("Immediate smaller number with same set of digits is = %d", x);
+
+    return 0;
 }

@@ -1,3 +1,4 @@
+# util to find if a given number is perfect or not
 def is_perfect(n):
     _sum = 1
     i = 2

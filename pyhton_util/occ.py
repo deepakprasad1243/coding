@@ -1,3 +1,17 @@
+"""
+Q: Given two string s ,t
+    if s is divisible by t, return the length of smallest divisor of t otherwise return -1
+
+divisible is defines as:
+    s is said to be divisible bt t, if t can be concatinated with self any no of times to form s
+
+divisor is defined as :
+    a string str is said to be a divisor of another string t, if t is divisible by str
+
+"""
+
+
+
 
 import re
 def solve(s, t):

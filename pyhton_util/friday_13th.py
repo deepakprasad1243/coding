@@ -1,6 +1,6 @@
 #friday the 13th
 
-mport datetime
+import datetime
 import calendar
 
 def findDay(date):

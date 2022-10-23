@@ -1,6 +1,6 @@
 /***
 
-Headers for Competiative programming 
+Headers for competitive programming 
 
 ***/
 

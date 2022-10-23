@@ -1,3 +1,15 @@
+/***
+
+
+Given length, height and width of blocks, arrange them to get the maximum height possible
+such that:
+1. the block should not exceed the boundaries of blocks under it.
+2. we can rotate the blocks as we like
+
+
+**/
+
+
 #include <iostream>
 using namespace std;
 

@@ -1,4 +1,4 @@
-# util to find if a given number is perfect or not
+# util to find whether a given number is perfect or not
 def is_perfect(n):
     _sum = 1
     i = 2
@@ -13,6 +13,6 @@ def is_perfect(n):
 
 
 if __name__ == '__main__':
-    n = int(input("Enter your number to check whether its a Perfect number or not : "))
+    n = int(input("Enter the number to check whether its a Perfect number or not : "))
     print("Perfect" if is_perfect(n) else "Not Perfect")
 

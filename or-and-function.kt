@@ -8,4 +8,7 @@ fun main(args: Array<String>) {
 
     result = a and b // a.and(b)
     println("result = $result")
+    
+    result = true or false and false
+    println("result = $result")
 }

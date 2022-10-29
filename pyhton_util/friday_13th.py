@@ -1,4 +1,4 @@
-#friday the 13th
+#friday the 13th date checker
 
 import datetime
 import calendar
